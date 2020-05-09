@@ -1,0 +1,9 @@
+server:
+  port: 89
+spring:
+  application:
+    name:  consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:83/eureka/
