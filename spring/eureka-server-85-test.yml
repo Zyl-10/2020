@@ -1,0 +1,9 @@
+server:
+  port: 85
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:83/eureka/,http://127.0.0.1:84/eureka/
+spring:
+  application:
+    name: eureka-server85
