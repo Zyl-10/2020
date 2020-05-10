@@ -7,3 +7,7 @@ spring:
 feign:
   hystrix:
     enabled: true
+eureka:
+  client:
+    server-url:
+      defaultZone: http://localhost:83/eureka/
