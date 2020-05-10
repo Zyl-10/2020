@@ -9,5 +9,5 @@ feign:
     enabled: true
 eureka:
   client:
-    server-url:
+    service-url:
       defaultZone: http://localhost:83/eureka/
